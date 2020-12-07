@@ -1,22 +1,15 @@
+import react from 'react'
+import classes from './wifi.module.css';
 
-import './wifi.css';
-
-function Wifi() {
+const wifi=(props)=>{
   return (
-    <div>
-    <p className="glow">glow me</p>
-    <div id="router">
-    <div id="body">
-      <div id="wifi">
-      <div className="signal"></div>
-        <div className="signal"></div>
-        <div className="signal"></div>
-        <div className="signal"></div>
-      </div>
-    </div>
-  </div>
+  <div className={classes.router}>
+    <div className={classes.signal}></div>
+    <div className={classes.signal}></div>
+    <div className={classes.signal}></div>
+    <div className={classes.signal}></div>
   </div>
   );
 }
 
-export default Wifi;
+export default wifi;
