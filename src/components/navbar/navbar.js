@@ -1,29 +1,15 @@
 import react from 'react';
 import classes from './navbar.module.css'
+import Logo from './Logo/Logo'
+import Hamburger from './Hamburger/Hamburger'
+import DesktopNavMenu from './DesktopNavMenu/DesktopNavMenu'
 
 const navbar=(props)=>{
     return(
         <nav className={classes.navbar}>
-            <div className={classes.logo}>
-
-            </div>
-            <div className={classes.navigationItemsDesktop}>
-                <p className={`${classes.navButton} ${classes.activeDesktop}`}>
-                    Home
-                </p>
-                <p className={classes.navButton}>
-                    About
-                </p>
-                <p className={classes.navButton}>
-                    Projects
-                </p>
-                <p className={classes.navButton}>
-                    Blogs
-                </p>
-                <p className={classes.navButton}>
-                    Contact
-                </p>
-            </div>
+            <Logo/>
+            <DesktopNavMenu/>
+            <Hamburger/>
         </nav>
     )
 

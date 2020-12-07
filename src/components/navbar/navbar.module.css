@@ -10,39 +10,10 @@
     justify-content: space-between;
 }
 
-.logo{
-    border: 1px solid white;
-    width: 50px;
-    height: 50px;
-    animation-name: fadeIn;
-    animation-duration: 1500ms;
-}
-
-.navigationItemsDesktop{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 35%;
-}
 
 @media (max-width:700px){
-    .navigationItemsDesktop{
-        display: none;
+    .navbar{
+        padding: 5px;
     }
 }
 
-.navButton{
-    color: #969696;
-    cursor: pointer;
-    animation-name: fadeIn;
-    animation-duration: 1500ms;
-}
-
-.activeDesktop{
-    border-bottom: 2px solid #FA9141;
-}
-
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- } 
