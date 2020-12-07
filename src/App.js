@@ -1,12 +1,14 @@
 import './App.css';
 import Wifi from './components/wifi/wifi';
+import Navbar from './components/navbar/navbar'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <Wifi/>
-      </header>
+        <Navbar/>
+      </div>
     </div>
   );
 }
