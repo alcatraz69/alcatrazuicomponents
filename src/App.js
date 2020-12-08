@@ -9,7 +9,6 @@ function App() {
       <div className="App-header">
         <Wifi/>
         <Socialicons/>
-      </header>
         <Navbar/>
       </div>
     </div>
