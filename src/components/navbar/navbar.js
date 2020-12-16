@@ -1,4 +1,4 @@
-import react from 'react';
+
 import classes from './navbar.module.css'
 import Logo from './Logo/Logo'
 import Hamburger from './Hamburger/Hamburger'
