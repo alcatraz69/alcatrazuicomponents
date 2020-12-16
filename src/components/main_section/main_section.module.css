@@ -1,0 +1,49 @@
+.email_link {
+  color: #fa9141;
+
+  border: 1px solid #fa9141;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email_link:hover {
+  background-color: #fa914134;
+}
+
+.main_sec {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  margin: 0px auto;
+  padding: 200px 0px;
+  position: absolute;
+  top: -4%;
+  left: 24%;
+}
+
+h1 {
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.big_heading {
+  margin: 0;
+  font-weight: 900;
+  font-size: xxx-large;
+  letter-spacing: 5px;
+}
+
+p {
+  max-width: 500px;
+  margin-top: 20px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}

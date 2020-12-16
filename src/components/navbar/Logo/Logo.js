@@ -1,4 +1,4 @@
-import react from 'react'
+
 import classes from './Logo.module.css'
 
 const logo=(props)=>{

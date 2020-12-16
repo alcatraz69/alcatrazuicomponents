@@ -1,4 +1,4 @@
-import react from 'react'
+
 import classes from './wifi.module.css';
 
 const wifi=(props)=>{
