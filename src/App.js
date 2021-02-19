@@ -4,7 +4,9 @@ import Socialicons from './components/socialsites/socialicons';
 
 import Navbar from './components/navbar/navbar'
 import MainSection from './components/main_section/main_section'
-import Particles from './components/particle/particle'
+import SectionHeading from './components/sections/sectionHeading/sectionHeading'
+import ProjectContainer from './components/sections/projectContainer/projectContainer'
+import BlogContainer from './components/sections/blogContainer/blogContainer'
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
         <Wifi/>
         <Socialicons/>
         <Navbar/>
-        <Particles/>
+        {/* <Particles/> */}
         <MainSection/>
-        
+        <SectionHeading/>
+        <ProjectContainer/>
+        <BlogContainer/>
       </div>
     </div>
   );

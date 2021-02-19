@@ -24,7 +24,6 @@
   width: 70%;
   margin: 0px auto;
   padding: 200px 0px;
-  position: absolute;
   top: -4%;
   left: 24%;
 }
@@ -40,7 +39,7 @@ h1 {
   letter-spacing: 5px;
 }
 
-p {
+.typography {
   max-width: 500px;
   margin-top: 20px;
   line-height: 25px;

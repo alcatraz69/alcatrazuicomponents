@@ -1,0 +1,10 @@
+.blogContainer{
+    width: 10rem;
+
+}
+
+@media (max-width:700px){
+    .blogContainer{
+        width: 100%;
+    }
+  }
