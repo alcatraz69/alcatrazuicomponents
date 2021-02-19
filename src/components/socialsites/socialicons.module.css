@@ -1,4 +1,4 @@
-ul {
+.iList {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -26,4 +26,11 @@ ul {
 
 .icon:hover {
   background-color: #fa9141;
+}
+
+
+@media (max-width:700px){
+  .iList{
+      display: none;
+  }
 }

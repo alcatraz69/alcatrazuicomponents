@@ -1,5 +1,6 @@
 import classes from './Hamburger.module.css';
 import React,{ useState } from 'react';
+import Dropdown from '../../../UI/Drop/Dropdown';
 
 const hamburger=React.memo((props)=>{
     const [iconClicked,seticonClicked]=useState(false);
@@ -24,7 +25,9 @@ const hamburger=React.memo((props)=>{
             <div className={lineOne}></div>
             <div className={lineTwo}></div>
             <div className={lineThree}></div>
+            <Dropdown open={iconClicked}/>
         </div>
+        
     )
 })
 
