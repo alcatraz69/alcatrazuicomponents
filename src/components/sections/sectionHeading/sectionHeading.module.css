@@ -1,26 +1,26 @@
-.sectionHeading{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.sectionHeading {
+  width: 60%;
+  margin: 45px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.headingLine{
+.headingLine {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.sectioHeadingText {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 700px) {
+  .sectionHeading {
     width: 100%;
-    border:1px solid white;
-}
-
-.sectioHeadingText{
-    margin: 0px;
-    padding: 0px;
-}
-
-@media (max-width:700px){
-    .sectionHeading{
-        width: 100%;
-    }
-    .headingLine{
-        display: none;
-    }
+  }
+  .headingLine {
+    display: none;
+  }
 }
