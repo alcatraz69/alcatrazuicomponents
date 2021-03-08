@@ -19,6 +19,7 @@ function App() {
         <MainSection/>
         <SectionHeading/>
         <ProjectContainer/>
+        <SectionHeading/>
         <BlogContainer/>
       </div>
     </div>
